@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Магазин застёжек-молний</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href='css/style.css'>
+    <link rel="stylesheet" href='css/slider.css'>
+    <link rel="stylesheet" href='css/menu.css'>
+
+    <style>
+        .tree span:hover {
+          font-weight: bold;
+        }
+    
+        .tree span {
+          cursor: pointer;
+        }
+      </style>
+</head>
+
+<body>
+    <div class="header">
+        <div id="sidebar">
+            <div class="toogle-btn" onclick="openmenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li class='nav'><a class='nav' href="#">О КОМПАНИИ</a></li>
+                <li class='nav'><a class='nav' href="#">ПРОИЗВОДСТВО</a></li>
+                <li class='nav'><a class='nav' href="#">УСЛУГИ</a></li>
+                <li class='nav'><a class='nav' href="#">ЗАКАЗАТЬ</a></li>
+                <li class='nav'><a class='nav' href="#">ДОСТАВКА И ОПЛАТА</a></li>
+                <li class='nav'><a class='nav' href="#">КОНТАКТЫ</a></li>
+            </ul>
+        </div>
+        <div class="container1">
+            <!--ШАПКА-->
+            <div class="navigation">
+                <div>
+                    <a class='header-logo' href="#"><img src='images/icons/logo.png'></a>
+                </div>
+
+                <ul class="menu">
+                    <li class='nav'><a class='nav' href="#">О КОМПАНИИ</a></li>
+                    <li class='nav'><a class='nav' href="#">ПРОИЗВОДСТВО</a></li>
+                    <li class='nav'><a class='nav' href="#">УСЛУГИ</a></li>
+                    <li class='nav'><a class='nav' href="#">ЗАКАЗАТЬ</a></li>
+                    <li class='nav'><a class='nav' href="#" onmouseover="showLinkImage('float_1')"
+                            onmouseout="hideLinkImage('float_1')">ДОСТАВКА И ОПЛАТА</a>
+                        <div id="float_1" style="display: none; position: absolute;"><img
+                                src="images/imgs/ico-icon-14.png" alt=""></div>
+                    </li>
+                    <li class='nav'><a class='nav' href="#">КОНТАКТЫ</a></li>
+                </ul>
+
+                <div class='header-contacts'>
+                    <div class='ico-con'>
+                        <a class='ico-con' href="#"><img src='images/icons/telegram.png'></a>
+                        <a class='ico-con' href="#"><img src='images/icons/whatsap.png'></a>
+                    </div>
+                    <div class='number'>
+                        <a class='phone' href="tel:74955005056">
+                            <div class='numb1'>+7(495)</div>
+                            <div class='numb2'>500-50-56</div>
+                        </a>
+                        <div class='header-nz'> <a class='header-nz' href="#">Заказать звонок</a></div>
+                    </div>
+                </div>
+
+                <div class="burger_menu"><img src="images/icons/menugamb.png"></div>
+            </div>
+
+            <!--КОНТЕНТ НА ПЕВРОМ ЭКРАНЕ-->
+
+            <div class="cont">
+                <div class='cont-block1'>
+                    <div class='cb11'>РОССИЙСКОЕ ПРОИЗВОДСТВО</div>
+                    <div class='cb12'>ЗАСТЕЖКИ-МОЛНИИ</div>
+                </div>
+                <div class='cont-block2'>
+                    <div class='cb2_img'><img src='images/icons/vektor20.png'></div>
+                </div>
+                <div class='cont-block3'>
+                    <ul>
+                        <li><img src='images/icons/chevron-with-circle-right.png'>Срок производства – 10 рабочих дней
+                        </li>
+                        <li><img src='images/icons/chevron-with-circle-right.png'>Более 20 лет на рынке производства
+                            швейной фурнитуры</li>
+                        <li><img src='images/icons/chevron-with-circle-right.png'>Крупнейший российский производитель
+                            застежек-молний</li>
+                        <li><img src='images/icons/chevron-with-circle-right.png'>Собственное производство покраски
+                            тесьмы и пулеров</li>
+                    </ul>
+                </div>
+                <div class='cont-block4'>
+                    <div class='cb41'>
+                        <p>Собственное производство на территории России.</p>
+                        <p>Оптовые и мелкооптовые поставки швейной фурнитуры.</p>
+                        <p>Продажа застежек-молний оптом.</p>
+                    </div>
+                    <div class='cont-block5'>
+                        <div class='cb51'><img src='images/icons/Время работы.png'></div>
+                        <div class='cb52'><img src='images/icons/Блок скидки.png'></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class='poloska'>
+            <img class='poloska-logo' src='images/icons/logo_mini.png'>
+            <div class='poloska-txt'>
+                <div class='pt1'>КРУПНЕЙШИЙ ПРОИЗВОДИТЕЛЬ ЗАСТЕЖЕК-МОЛНИЙ В РФ</div>
+                <div class='pt2'>
+                    <div class='pt2_img'><img class='pt2_img' src='images/icons/GeoPoint.png'></div>
+                    171533 Тверская область, Кимрский район, пос. Центральный, ул Мира 29А
+                </div>
+            </div>
+            <div class='poloska-gold'><img src='images/icons/gold-medal-l3u 1.png'></div>
+        </div>
+    </div>
+    </div>
+
+
+    <!--************************************************************************************************-->
+    <!--ПАНЕЛЬ КОНТАКТОВ-->
+
+    <div class="container2">
+        <div class='panel_contacts'>
+            <div class='panel_contacts_left'>
+                <div class='pcl_1'>
+                    <div class="pcl_11"><a class="pcl_11" href="#"><img src='images/icons/telegram.png'></a></div>
+                    <div class="pcl_12"><a class="pcl_12" href="#"><img src='images/icons/whatsap.png'></a></div>
+                </div>
+                <div class='pcl_2'>
+                    <div class='pcl_21'><a class='phone' href="tel:74955005056">+7(495) 500-50-56</a></div>
+                    <div class='pcl_22'><a class='phone' href="tel:79150325116">(915) 032-51-16</a></div>
+                </div>
+                <div class='pcl_3'>
+                    <a class='pcl_3' href="#">
+                        <div class='pcl_3i'><img src='images/icons/heart.png'></div>
+                        <div class='pcl_3t'>Оставить отзыв</div>
+                    </a>
+                </div>
+                <div class='pcl_4'>
+                    <a class='pcl_4' href="#">
+                        <div class='pcl_4i'><img src='images/icons/calendar.png'></div>
+                        <div class='pcl_4t'>Отправить заявку</div>
+                    </a>
+                </div>
+            </div>
+
+            <div class='panel_contacts_right'>
+                <div class='pcr_i'>
+                    <a href="#">
+                        <img class='ico_vk_t' src='images/icons/vkontakte_top.png'>
+                        <img class='ico_inst_t' src='images/icons/instagram_top.png'>
+                        <img class='ico_fb_t' src='images/icons/facebook_top.png'>
+                        <img class='ico_yt_t' src='images/icons/youtube_top.png'>
+                    </a>
+                </div>
+                <div class="pcr_t">Дружите с нами</div>
+            </div>
+        </div>
+
+
+        <!--************************************************************************************************-->
+        <!--КОНТЕНТ-БЛОК С ТОВАРАМИ-->
+
+        <div class="content_block">
+            <div class="cb_tovary"><button id="top">Наверх</button>
+                <div class="cbt-proizvodstvo">
+                    <div class="proizvodstvo_claps">
+
+                        <!--ПРОИЗВОДСТВО ЗАСТЁЖЕК-МОЛНИЙ-->
+
+                        <div class="pk1">
+                            <h2 class="pk1">Производство застежек-молний</h2>
+                        </div>
+                        <div class="pk2">
+                            <p class="pk21">Закажите застежки-молнии сегодня и получите готовые
+                                через 10 дней </p>
+                            <p class="pk22">600+ цветов, тракторные, спиральные,
+                                металлические. Минимальный заказ от 100 шт
+                                Пуллеры с Вашим логотипом</p>
+                        </div>
+                        <div class="pk3">
+                            <ul class="pk3_zakaz">
+                                <li>Мы изготавливаем застежки-молнии полностью от литья до покраски.</li>
+                                <li>Мощность производства более 1 миллиона молний в месяц.</li>
+                                <li>Срок изготовления заказа 10 дней.</li>
+                            </ul>
+                            <ul class="pk3_color">
+                                <li>Наша компания первая среди производителей молний в России
+                                    открыла собственный красильный участок. </li>
+                                <li>Мы запустили красильное
+                                    производство в 2006 году.</li>
+                                <li>Сейчас окрашиваем молнии в более
+                                    чем 600 цветов по собственной цветовой карте.</li>
+                            </ul>
+                        </div>
+                        <p><a class='pk3_etc' href='#'>Подробнее >>></a></p>
+                    </div>
+
+                    <!--СВОРАЧИВАЕМЫЙ СПИСОК-МЕНЮ-->
+
+                    <div class="menu_list">
+                        <div class="ml_proizvodstvo">
+                            <h3>Производство</h3>
+                            <ul class="tree" id="tree">
+                                <li>Тракторные молнии
+                                    <ul>
+                                        <li>Тракторные молнии 1</li>
+                                        <li>Тракторные молнии 2</li>
+                                        <li>Тракторные молнии 3</li>
+                                    </ul>
+                                </li>
+
+                                <li>Спиральные молнии
+                                    <ul>
+                                        <li>Спиральные молнии 1</li>
+                                        <li>Спиральные молнии 2</li>
+                                        <li>Спиральные молнии 3</li>
+                                    </ul>
+                                </li>
+
+                                <li>Металлические молнии
+                                    <ul>
+                                        <li>Металлические молнии 1</li>
+                                        <li>Металлические молнии 2</li>
+                                        <li>Металлические молнии 3</li>
+                                    </ul>
+                                </li>
+
+                                <li>Слайдеры
+                                    <ul>
+                                        <li>Слайдеры 1</li>
+                                        <li>Слайдеры 2</li>
+                                        <li>Слайдеры 3</li>
+                                    </ul>
+                                </li>
+
+                                <li>Пуллеры
+                                    <ul>
+                                        <li>Металлические</li>
+                                        <li>Текстильные</li>
+                                        <li>Светоотражающие</li>
+                                        <li>Пластиковые</li>
+                                        <li>С логотипом</li>
+                                        <li>Под заказ</li>
+                                        <li>Распродажа</li>
+                                    </ul>
+                                </li>
+                            </ul> 
+                        </div>
+
+
+                    </div>
+
+                    <!--ЗАСТЁЖКИ НА ЗАКАЗ-->
+
+                    <div class="proizvodstvo_zakaz">
+                        <div class="pz_head">
+                            <div class="pzh_t1">
+                                <h2>Застежка молния на заказ</h2>
+                            </div>
+                            <div class="pzh_t2">
+                                <p>Закажите застежки-молнии сегодня и получите готовые через 10 дней</p>
+                                <p>600+ цветов, тракторные, спиральные, металлические.Минимальный заказ от 100 шт.
+                                </p>
+                                <p>Пуллеры с Вашим логотипом</p>
+                            </div>
+                        </div>
+
+                        <div class="pz_options">
+                            <div class="pzo_tract">
+                                <div class="pzot_t">
+                                    <div class="pzo_t1"><a href='#'>Тракторные молнии</a></div>
+                                    <div class="pzo_t2">Тракторная застёжка по форме отдалённо напоминает гусеницу
+                                        трактора</div>
+                                </div>
+                                <div class="pzot_img"><img src='images/imgs/Тракторная 1.png'></div>
+                            </div>
+
+                            <div class="pzo_spir">
+                                <div class="pzos_t">
+                                    <div class="pzo_t1"><a href='#'>Спиральные молнии</a></div>
+                                    <div class="pzo_t2">Спиральная делается из завёрнутого в спираль синтетического
+                                        волокна</div>
+                                </div>
+                                <div class="pzos_img"><img src='images/imgs/Спиральная 1.png'></div>
+                            </div>
+
+                            <div class="pzo_metal">
+                                <div class="pzom_t">
+                                    <div class="pzo_t1"><a href='#'>Металлические молнии</a></div>
+                                    <div class="pzo_t2">Металлическая застёжка похожа на тракторную, но зубья
+                                        сделаны из металла</div>
+                                </div>
+                                <div class="pzom_img"><img src='images/imgs/Металлическая 1.png'></div>
+                            </div>
+
+                            <div class="pzo_ready">
+                                <div class="pzor_t">
+                                    <div class="pzor_t1">Готовые молнии через 10 дней</div>
+                                    <div class="pzor_t2">
+                                        Закажите застежки-молнии сегодня и получите готовые через 10 дней. 600+
+                                        цветов, тракторные, спиральные, металлические. Минимальный заказ от 100 шт.
+                                        Пуллеры с Вашим логотипом
+                                        <p><a href='#'>Подробнее >>></a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--************************************************************************************************************-->
+                <!--ВАРИАНТЫ МОЛНИЙ-->
+
+                <div class="content_claps_options">
+                    <div class="cco_head">
+                        <div class="ccoh_t1">
+                            <h2>Нестандартные и комбинированные варианты молний</h2>
+                        </div>
+                        <div class="ccoh_t2">
+                            Нестандартные молнии помогают производителям одежды выделить свою продукцию на фоне
+                            конкурентов и повысить продажи
+                        </div>
+                    </div>
+
+                    <div class="cco_options">
+                        <div class="ccoo_colors">
+                            <div class="cc_i"><img src='images/imgs/comb.png'></div>
+                            <div class="cc_t">
+                                <p>Комбинированные цвета</p>
+                            </div>
+                        </div>
+
+                        <div class="ccoo_prongs">
+                            <div class="cp_i"><img src='images/imgs/unstantard.png'></div>
+                            <div class="cp_t">
+                                <p>Необычные варианты зубьев</p>
+                            </div>
+                        </div>
+
+                        <div class="ccoo_links">
+                            <div class="cl_i"><img src='images/imgs/shark_teeth.png'></div>
+                            <div class="cl_t">
+                                <p>Интересная форма звеньев</p>
+                            </div>
+                        </div>
+
+                        <div class="ccoo_deluxe">
+                            <div class="cd_i"><img src='images/imgs/Deluxe 4.png'></div>
+                            <div class="cd_t">
+                                <p>Эксклюзивный зуб "Deluxe"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--ВАРИАНТЫ ПУЛЛЕРОВ-->
+
+                <div class="content_puller_options">
+                    <div class="cpo_head">
+                        <h2>Огромное количество вариантов пуллеров</h2>
+                        <p>Мы изготавливаем пуллеры из ПВХ или металла с Вашей символикой</p>
+                    </div>
+
+                    <div class="cpo_block">
+                        <div class="cpob_brending">
+                            <img class="cpo_block" src="images/imgs/Брендирование.png">
+                        </div>
+
+                        <div class="cpob_plastic">
+                            <img class="cpo_block" src="images/imgs/Group 8.png">
+                        </div>
+
+                        <div class="cpob_textil">
+                            <img class="cpo_block" src="images/imgs/Group 9.png">
+                        </div>
+
+                        <div class="cpob_metal">
+                            <img class="cpo_block" src="images/imgs/Group 11.png">
+                        </div>
+
+                        <div class="cpob_light">
+                            <img class="cpo_block" src="images/imgs/Светоотражаюющие пуллеры.png">
+                        </div>
+                    </div>
+
+                    <div class="cpo_but">
+                        <button class="button_catalog">
+                            <p>ПОСМОТРЕТЬ ВЕСЬ КАТАЛОГ</p>
+                            <img src="images/icons/krugstr.png">
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--******************************************************************************************************-->
+            <!--БЫСТРАЯ ЗАЯВКА-->
+
+
+            <div class="fast_z">
+                <div class="block_fz">
+                    <div class="bfz_head">
+                        <h2>Быстрая заявка на производство молний</h2>
+                        <p>Оставьте свой номер и наши специалисты свяжутся с Вами в ближайшее время</p>
+                    </div>
+
+                    <div class="bfz_forms">
+                        <div class="bfz_f1">
+                            <form>
+                                <label for="name">Как к Вам обратиться?</label>
+                                <input type="text" name="Name" placeholder="Имя или имя Отчество">
+                            </form>
+                        </div>
+
+                        <div class="bfz_f2">
+                            <form>
+                                <label for="phone">Номер телефона:</label>
+                                <input type="text" name="phone" placeholder="+7 (___) ___-__-__">
+                            </form>
+                        </div>
+
+                        <div class="bfz_f3">
+                            <button class="button_zayav">
+                                <p>ОТПРАВИТЬ ЗАЯВКУ</p>
+                                <img src="images/icons/krugstr.png">
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="bfz_footer">
+                        <p>Нажимая на кнопку «Отправить заявку», Вы даете согласие
+                            на обработку персональных данных и соглашаетесь с политикой
+                            конфиденциальности</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--**********************************************************************************************************-->
+            <!--БЛОК ВИДЕО-->
+
+            <div class="cb_tovary">
+                <div class="block_video">
+                    <div class="bv_video"><img src="images/imgs/Видео.png"></div>
+
+                    <div class="bv_text">
+                        <div class="bvt1">
+                            <h4>НЕОБЫЧНЫЙ ПРИВЛЕКАТЕЛЬНЫЙ ВНЕШНИЙ ВИД</h4>
+                            <p>Комбинированные цвета выгодно выделят Вашу продукцию от конкурентов</p>
+                        </div>
+                        <div class="bvt2">
+                            <h4>ПРОИЗВОДСТВО НЕСТАНДАРТНЫХ РАЗМЕРОВ</h4>
+                            <p>Мы производим молнии длиной от 8 см с шагом 0,5 см.</p>
+                        </div>
+                        <div class="bvt3">
+                            <h4>ТОЧНОЕ ПОПАДАНИЕ В ЦВЕТ</h4>
+                            <p>Вы выбираете цвет по нашей карте цветов, по текстильному
+                                пантону или мы изготавливаем застежки-молнии по образцу
+                                Вашей ткани.</p>
+                        </div>
+                        <div class="bvt4">
+                            <h4>ВЫСОКАЯ ИЗНОСОСТОЙКОСТЬ И ДОЛГОВЕЧНОСТЬ</h4>
+                            <p>У нас многолетний опыт в производстве застежек-молний</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--ПАРТНЁРЫ-->
+
+                <div class="partners">
+                    <div class="partners_head">
+                        <h2>Наши партнеры</h2>
+                        <p>Мы с гордостью представляем наших партнеров, это ведущие компании в своей отрасли
+                            различных сфер деятельности и с каждым компанией мы взаимодействуем таким образом,
+                            чтобы это стало началом долгого сотрудничества.</p>
+                    </div>
+
+                    <div class="sim-slider">
+                        <ul class="sim-slider-list">
+                            <li><img src="http://pvbk.spb.ru/inc/slider/imgs/no-image.gif" alt="screen"></li>
+                            <!-- это экран -->
+                            <li class="sim-slider-element"><img src="images/imgs/saliteks.png" alt="0"></li>
+                            <li class="sim-slider-element"><img src="images/imgs/fi-tex.png" alt="1"></li>
+                            <li class="sim-slider-element"><img src="images/imgs/mos-label.png" alt="2"></li>
+                            <li class="sim-slider-element"><img src="images/imgs/mos-cvet-lenta.png" alt="3"></li>
+                            <li class="sim-slider-element"><img src="images/imgs/mostex.png" alt="4"></li>
+                            <li class="sim-slider-element"><img src="images/imgs/fabreex.png" alt="5"></li>
+                        </ul>
+                        <div class="sim-slider-arrow-left"></div>
+                        <div class="sim-slider-arrow-right"></div>
+                        <div class="sim-slider-dots"></div>
+                    </div>
+
+
+                    <button class="button_partners">
+                        <p>ВСЕ ПАРТНЁРЫ</p>
+                        <img src="images/icons/krugstr.png">
+                    </button>
+                </div>
+            </div>
+
+            <!--ЧАСТЫЕ ВОПРОСЫ-->
+
+            <div class="faq">
+                <div class="faq_block">
+                    <div class="faq-elements">
+                        <div class="faq_e1">
+                            <button class="faqe_1">
+                                <b class='faqe1'>Почему наши застежки-молнии самые качественные?</b>
+                            </button>
+                        </div>
+                        <div class="faq_e2">
+                            В течение 20 лет компания ALYZIP является бессменным лидером по
+                            производству застежек-молний в Российской Федерации.
+                            Наша компания уделяет особое внимание обеспечению высокого
+                            качества продукции, устанавливая контроль на всех стадиях
+                            производственного процесса, начиная с контроля качества
+                            используемого сырья, материалов и заканчивая определением
+                            соответствия выпущенного продукта техническим характеристикам
+                            и параметрам не только в ходе его испытания, но и в эксплуатации.
+                            Вся наша продукция сертифицирована и соответствует требованиям
+                            нормативных документов ГОСТ 28965-91, ГОСТ 30736-2001.
+                        </div>
+                        <div class="faq_e3">
+                            <button class="faqe_3">
+                                <b class='faqe1'>Какие застежки-молнии мы производим?</b>
+                            </button>
+                        </div>
+                        <div class="faq_e4">
+                            <button class="faqe_4">
+                                <b class='faqe1'>Какая минимальная партия заказа?</b>
+                            </button>
+                        </div>
+                        <div class="faq_e5">
+                            <button class="faqe_5">
+                                <b class='faqe1'>Возможна ли индивидуальная окраска застежек-молний?</b>
+                            </button>
+                        </div>
+                        <div class="faq_e6">
+                            <button class="faqe_6">
+                                <b class='faqe1'>Возможно ли брендирование и нанесение логотипов на пуллеры?</b>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="faq_img"><img class="faqi_img" src="images/imgs/Thinking-Woman.svg"></div>
+                </div>
+
+                <!--НОВОСТИ-->
+
+                <div class="block_news">
+                    <div class="news_head">
+                        <h2>Свежие новости и публикации</h2>
+                        Вы найдете интересные факты о производстве застежек-молний, полезные познавательные статьи и
+                        публикации в рамках тематики и многое другое, а так же новости и события нашей индустрии.
+                    </div>
+
+                    <div class="news_blocks">
+                        <div class="news_t1">
+                            <div class="nt_img"><img src="images/imgs/Group images-2.png"></div>
+                            <div class="nt_text">
+                                <h4>Тракторная молния звено Deluxe</h4>
+                                <p>Тракторная молния Deluxe - то что нужно производителям одежды.</p>
+                                <p>Секрет успеха дизайнерских брендов в качественной фурнитуре. Тракторная молния Deluxe
+                                    выгодный вариант для стильной одежды.</p>
+                            </div>
+                            <div class="nt_ic"><img class="kvs" src="images/icons/chevron-with-circle-right.png"></div>
+                        </div>
+                        <div class="news_t2">
+                            <div class="nt_img"><img src="images/imgs/Group images-1.png"></div>
+                            <div class="nt_text">
+                                <h4>Универсальное крепление на текстильный пуллер</h4>
+                                <p>Представляем вашему вниманию универсальные и удобные переходники для крепления
+                                    текстильных пуллеров,
+                                    которые прекрасно разнообразят любую вашу коллекцию.</p>
+                            </div>
+                            <div class="nt_ic"><img class="kvs" src="images/icons/chevron-with-circle-right.png"></div>
+                        </div>
+                        <div class="news_t3">
+                            <div class="nt_img"><img src="images/imgs/Group images.png"></div>
+                            <div class="nt_text">
+                                <h4>Текстильный пуллер "камуфляж"</h4>
+                                <p>Специально для производителей спецодежды и СИЗ,
+                                    наша команда дизайнеров разработала новую линейку фурнитуры c расцветкой "камуфляж".
+                                </p>
+                            </div>
+                            <div class="nt_ic"><img class="kvs" src="images/icons/chevron-with-circle-right.png"></div>
+                        </div>
+                    </div>
+                    <button class="button_news">
+                        <p>ПОСМОТРЕТЬ ВСЕ ПУБЛИКАЦИИ</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!--КАРТА-->
+        <!-- <script>
+            // поместить все текстовые узлы в элемент <span>
+            // он занимает только то место, которое необходимо для текста
+            for (let li of tree.querySelectorAll('li')) {
+              let span = document.createElement('span');
+              li.prepend(span);
+              span.append(span.nextSibling); // поместить текстовый узел внутрь элемента <span>
+            }
+        
+            //  ловим клики на всём дереве
+            tree.onclick = function(event) {
+        
+              if (event.target.tagName != 'SPAN') {
+                return;
+              }
+        
+              let childrenContainer = event.target.parentNode.querySelector('ul');
+              if (!childrenContainer) return; // нет детей
+        
+              childrenContainer.hidden = !childrenContainer.hidden;
+            }
+          </script> -->
+        <div class="block_map">
+            <img src="images/imgs/map.png">
+            <img src="images/imgs/zdanie.png">
+        </div>
+
+
+
+
+
+        <!--****************************************************************************************-->
+        <!--ФУТЕР-->
+
+        <div class="block_footer">
+            <div class="bf">
+                <div class="bf_text">
+                    <img src="images/icons/logo.png">
+                    <p>Производство застежек-молний и швейная фурнитура -
+                        основное направление деятельности нашей компании.
+                        Собственное производство на территории России,
+                        оптовые и мелкооптовые поставки швейной фурнитуры.
+                        Производство и продажа застежек-молний оптом.</p>
+
+                    <p>Производственное предприятие "AlyZip" на сегодняшний
+                        день самый крупный и востребованный производитель
+                        застежек-молний на территории России и СНГ.</p>
+                </div>
+
+                <div class="bf_contact_info">
+                    <div class="bfci_head">Контактная информация</div>
+                    <ul class="footer_info_ico">
+                        <li class="footer_info_ico"><img src='images/icons/geo.png'> 171533, г. Кимры, ул. Мира, дом
+                            29А</li>
+                        <li class="footer_info_ico"><img src='images/icons/phone.png'>+7 (495) 500-50-56 (Telegram.
+                            WhatsApp)</li>
+                        <li class="footer_info_ico"><img src='images/icons/clock.png'>пн-пт 08:00 до 20:00</li>
+                        <li class="footer_info_ico"><img src='images/icons/Mail.png'>info@alyzip.ru</li>
+                    </ul>
+
+
+                </div>
+            </div>
+            <div class="mf">
+                <ul class="menu_foot">
+                    <li class='nav'><a class='nav' href="#">О КОМПАНИИ</a></li>
+                    <li class='nav'><a class='nav' href="#">ПРОИЗВОДСТВО</a></li>
+                    <li class='nav'><a class='nav' href="#">УСЛУГИ</a></li>
+                    <li class='nav'><a class='nav' href="#">ЗАКАЗАТЬ</a></li>
+                    <li class='nav'><a class='nav' href="#">ДОСТАВКА И ОПЛАТА</a></li>
+                    <li class='nav'><a class='nav' href="#">КОНТАКТЫ</a></li>
+                </ul>
+
+                <div class="bf_icons">
+                    <img src="images/icons/vkontakte.png">
+                    <img src="images/icons/Instagram_icon 1.png">
+                    <img src="images/icons/facebook.png">
+                    <img src="images/icons/youtube.png">
+                </div>
+
+                <form>
+                    <input style="margin: 0 23%;" type="button" value="Открыть карту" onClick="confirmClose()">
+                </form>
+            </div>
+            <img src="images/icons/Нижний разделитель.svg">
+            <div class='posl_foot'>
+
+                <div class="pf1">Российское производство застежек-молний "AlyZip" © 2020
+                    Все права защищены</div>
+                <div class="pf2">Разработка высоконагруженных интернет проектов любой сложности
+                    Комплексное маркетинговое сопровождение</div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+</body>
+<script src="js/menu.js"></script>
+<script src="js/Ttree_list.js"></script>
+<script src="js/top-btn.js"></script>
+<script src="js/link-img.js"></script>
+<script src="js/virus.js"></script>
+<script src="js/jquery-2.2.3.min.js"></script>
+<script src="js/slider.js"></script>
+
+</html>
